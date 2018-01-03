@@ -13,9 +13,9 @@ plugins:
 
 # Site Settings
 locale                   : "en"
-title                    : "Smart Software Engineering Blog"
+title                    : "Smart Software Engineering"
 title_separator          : "-"
-name                     : "Robert"
+name                     : "Robert B"
 description              : "Providing simple,  creative solutions to everyday problems."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -87,10 +87,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Robert"
+  name             : "Robert B"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "Creative engineer with a full-stack mindset. Providing a refreshing take on the latest technology.  Developing smart, enterprise-first solutions that evolve and grow with your business."
+  location         : "United States"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -242,6 +242,10 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
